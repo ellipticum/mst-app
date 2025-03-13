@@ -1,0 +1,75 @@
+.logo,
+.intro__heading,
+.intro__feature-text span {
+    font-family: 'Prata', sans-serif;
+}
+
+/* Intro */
+
+.intro {
+    height: min(100vh, 1009px);
+    display: flex;
+}
+
+.intro__wrapper {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+/* Header > Navbar */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Intro > Intro content */
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    max-width: 700px;
+}
+
+.intro__headings {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.intro__features {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.intro__feature {
+    background: var(--color-primary-10-transparent-70);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.intro__feature-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
