@@ -58,7 +58,7 @@ h6 {
 }
 
 .left-indent {
-    padding-left: max(var(--container-indent), calc((100vw - var(--container-width)) / 2))
+    padding-inline: max(var(--container-indent), calc((100vw - var(--container-width)) / 2)) var(--container-indent);
 }
 
 .container {

@@ -4,8 +4,10 @@
     --color-primary-10-transparent-70: rgba(40, 40, 41, 0.70);
     --color-secondary-5: rgba(255, 255, 255, 1);
     --color-secondary-10: rgba(255, 255, 255, 1);
+    --color-secondary-15: rgba(214, 214, 214, 1);
     --color-accent-5: rgba(239, 207, 173, 1);
     --color-accent-10: rgba(164, 144, 125, 1);
+    --color-medium-5: rgba(85, 86, 90, 1);
 
     --container-indent: 16px;
     --container-width: 1597px;

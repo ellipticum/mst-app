@@ -1,30 +1,30 @@
 .display-text {
-    font-size: clamp(40px, 5vw + 10px, 80px);
+    font-size: clamp(40px, 4.5vw + 10px, 80px);
     line-height: 120%;
 }
 
 .lead-text {
-    font-size: clamp(32px, 3vw + 15px, 54px);
+    font-size: clamp(32px, 2.5vw + 15px, 54px);
     line-height: 110%;
 }
 
 .sublead-text {
-    font-size: clamp(30px, 3vw + 10px, 50px);
+    font-size: clamp(30px, 2.25vw + 10px, 50px);
     line-height: 120%;
 }
 
 .sub-text {
-    font-size: clamp(24px, 2.5vw + 8px, 40px);
+    font-size: clamp(24px, 2.15vw + 8px, 40px);
     line-height: 150%;
 }
 
 .middle-text {
-    font-size: clamp(20px, 2vw + 6px, 36px);
+    font-size: clamp(20px, 1.95vw + 6px, 36px);
     line-height: 130%;
 }
 
 .body-text {
-    font-size: clamp(16px, 1.5vw + 10px, 24px);
+    font-size: clamp(16px, 1.75vw + 10px, 24px);
     line-height: 110%;
 }
 
