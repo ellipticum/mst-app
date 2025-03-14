@@ -59,6 +59,10 @@ h6 {
 
 .left-indent {
     padding-inline: max(var(--container-indent), calc((100vw - var(--container-width)) / 2)) 0;
+
+    @media (min-width: 768px) {
+        padding-right: 0;
+    }
 }
 
 .container {
