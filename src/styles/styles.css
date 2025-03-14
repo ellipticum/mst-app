@@ -92,9 +92,16 @@
 .navbar__link {
     font-style: italic;
     text-transform: uppercase;
+}
+
+.footer__link,
+.navbar__link,
+.footer__navbar-link {
     transition: color 0.3s;
 }
 
+.footer__link:hover,
+.footer__navbar-link:hover,
 .navbar__link:hover {
     color: var(--color-accent-5);
 }
@@ -414,4 +421,12 @@
 
 .footer__copyright {
     font-family: 'Roboto', sans-serif;
+}
+
+.media__link {
+    transition: all 0.3s;
+}
+
+.media__link:hover {
+    filter: brightness(80%);
 }
