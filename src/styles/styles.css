@@ -28,9 +28,9 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 2000px) {
     .intro {
-        height: clamp(800px, 100vh, 1009px);
+        height: clamp(800px, 100vh, 1300px);
     }
 }
 
