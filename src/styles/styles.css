@@ -307,6 +307,11 @@
     transition: border-color 0.3s;
 }
 
+input[type='checkbox'] {
+    border-width: 2px;
+    border-color: var(--color-accent-20);
+}
+
 .input:focus {
     border-color: var(--color-accent-5);
 }
@@ -340,6 +345,7 @@
 
 .form__accept-label {
     cursor: pointer;
+    color: var(--color-medium-10);
 }
 
 .form__button {
