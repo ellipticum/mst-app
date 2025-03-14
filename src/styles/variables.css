@@ -1,4 +1,5 @@
 :root {
+    /* Colors */
     --color-primary-5: rgba(34, 34, 34, 1);
     --color-primary-10: rgba(40, 40, 41, 1);
     --color-primary-10-transparent-70: rgba(40, 40, 41, 0.70);
@@ -7,8 +8,11 @@
     --color-secondary-15: rgba(214, 214, 214, 1);
     --color-accent-5: rgba(239, 207, 173, 1);
     --color-accent-10: rgba(164, 144, 125, 1);
+    --color-accent-15: rgba(213, 201, 190, 1);
+    --color-accent-20: rgba(56, 83, 93, 1);
     --color-medium-5: rgba(85, 86, 90, 1);
 
+    /* Layout */
     --container-indent: 16px;
-    --container-width: 1597px;
+    --container-width: clamp(1400px, 62vw + 20px, 1597px);
 }

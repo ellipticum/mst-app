@@ -1,0 +1,218 @@
+
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: var(--color-primary-5);
+    color: var(--color-secondary-5);
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Color Variables */
+:root {
+    --color-primary-5: #222222;
+    --color-secondary-5: #FFFFFF;
+    --color-accent-5: #EFCDAD;
+    --color-accent-10: #A4907D;
+    --color-medium-5: #555656;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: var(--color-primary-10);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.hero-title {
+    font-size: 40px;
+    color: var(--color-secondary-5);
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    color: var(--color-accent-10);
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.feature-text {
+    font-size: 16px;
+    color: var(--color-secondary-5);
+}
+
+.price {
+    font-weight: bold;
+    color: var(--color-accent-5);
+}
+
+.highlight {
+    color: var(--color-accent-5);
+}
+
+.btn {
+    background-color: var(--color-accent-5);
+    color: var(--color-primary-5);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--color-accent-10);
+}
+
+.order-btn {
+    margin-top: 20px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Achievements Section */
+.achievements-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.achievements-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievement {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.achievement-icon {
+    margin-right: 10px;
+}
+
+.achievement-text {
+    font-size: 16px;
+    color: var(--color-medium-5);
+}
+
+/* Deal Section */
+.deal-section {
+    background-color: var(--color-accent-10);
+    padding: 40px;
+}
+
+.form-wrapper {
+    background-color: var(--color-primary-5);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid var(--color-medium-5);
+    border-radius: 5px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    color: var(--color-medium-5);
+}
+
+/* Footer */
+.footer {
+    padding: 40px;
+    background-color: var(--color-primary-10);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    margin: 0 20px;
+    font-size: 14px;
+    color: var(--color-secondary-5);
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

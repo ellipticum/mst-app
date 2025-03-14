@@ -58,7 +58,7 @@ h6 {
 }
 
 .left-indent {
-    padding-inline: max(var(--container-indent), calc((100vw - var(--container-width)) / 2)) var(--container-indent);
+    padding-inline: max(var(--container-indent), calc((100vw - var(--container-width)) / 2)) 0;
 }
 
 .container {
@@ -74,25 +74,37 @@ h6 {
 .button {
     background: var(--color-secondary-5);
     color: var(--color-primary-5);
-    font-size: clamp(16px, 1.5vw + 10px, 24px);
+    font-size: clamp(16px, 0.8vw + 10px, 22px);
     border-radius: 4px;
-    line-height: 150%;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
-    padding: 40px 50px;
+    padding: clamp(20px, 1.2vw + 10px, 36px) clamp(30px, 1.6vw + 10px, 50px);
     letter-spacing: 0.04em;
     font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
+}
 
-    &.small {
-        padding: 32px 52px;
-        font-size: clamp(12px, 1.2vw + 6px, 20px);
-    }
+.button:hover {
+    background: var(--color-accent-5);
+    transform: translateY(-2px);
+}
 
-    &.fit {
-        width: fit-content;
-    }
+.button.small {
+    padding: clamp(16px, 1vw + 8px, 28px) clamp(26px, 1.3vw + 10px, 52px);
+    font-size: clamp(12px, 0.7vw + 6px, 20px);
+}
 
-    &.italic {
-        font-weight: 400;
-        font-style: italic;
-    }
+.button.fit {
+    width: fit-content;
+}
+
+.button.italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.button.light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
